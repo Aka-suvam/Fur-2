@@ -17,9 +17,15 @@ display: flex;
 gap:1vw;
 align-items: center;
 }
-.logo_container img {
-    width: 63px;
+.logo-img-container{
+    width: 64px;
     height: 63px;
+    
+}
+.logo_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     background-color: white;
     border-radius: 4vw;
     border: none;
