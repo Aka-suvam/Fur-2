@@ -64,10 +64,12 @@ footer{
 .website_logo{
     width: 70px;
     height: 70px;
+    border:1px solid black;
 }
 .website_logo img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
  .img1 ,.img2,.img3{
