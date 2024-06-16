@@ -38,7 +38,9 @@ import { useState } from "react";
  return (<header className={`${headerClass}`}>
      <Link to="/" className="text-link">     
          <div className="logo_container">
+         <div className="logo-img-container">
          <img src={Logo} alt="brand-logo"/>
+         </div>
          <p className="brand_title">Panto</p>
         </div>
         </Link> 
